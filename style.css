@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'clock';
+    src: url('./font/alarm\ clock.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    background-color: #181818;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#clock {
+    background-color: #0c0c0c;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.603), -50px 0px 0 #0c0c0c, -50px -10px 0 #0c0c0c, -15px -10px 0 #0c0c0c;
+}
+
+#clock-out {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border-radius: 40px;
+    padding: 0 20px 20px 20px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+#in-out {
+    display: flex;
+    align-items: flex-end;
+}
+
+#clock-in {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#am-pm, #week-day, #date {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0px 0px 5px #0077ff, 0px 0px 10px #0077ff60;
+}
+
+#hour {
+    font-family: 'clock', Times, serif;
+    font-size: 3em;
+    color: white;
+    font-size: 250px;
+    margin-left: 25px;
+    text-shadow: 0px 0px 5px #0077ff, 0 0 10px #0077ffb0, 0 0 20px #0077ff96, 0 0 50px #006eff33;
+    font-weight: 100;
+}
+
+#seconds {
+    color: white;
+    font-family: 'clock', Times, serif;
+    font-size: 40px;
+    text-shadow: 0px 0px 7px #0077ff, 0px 0px 10px #0077ff86;
+    margin-bottom: -120px;
+}
+
+#week-day {
+    margin-top: -35px;
+}
+
+#date{
+    margin: -35px 270px 0px 220px;
+}
+
+#day {
+    display: flex;
+    flex-direction: row;
+}
