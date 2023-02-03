@@ -1,5 +1,5 @@
 # digital_clock
 A simple digital clock i made by testing some things
 
-# Test:
+### Test:
 https://natansalgado.github.io/digital_clock/
